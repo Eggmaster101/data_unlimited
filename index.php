@@ -12,19 +12,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
  <script src="https://rawgit.com/jasondavies/d3-cloud/master/build/d3.layout.cloud.js"></script>
- <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
   <style>
    .navbar-default{
       background-color: #fff;
       border: none;
-      font-family:'Playfair Display', serif; 
+     font-family: 'Gloria Hallelujah', cursive;
     }
     #section{
       padding-top: 100px;
     }
     body { padding-bottom: 50px; }
     footer{
-      font-family:'Playfair Display', serif; 
+     font-family: 'Gloria Hallelujah', cursive;
       font-size: 24px;
     }
   </style>
@@ -56,7 +56,7 @@
     <div class= "container">
       <div class = "jumbotron">
         <h2>Second Chart Type</h2>
-        <p>Filler: Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        <p>Filler: Sonic...</p>
         <div id="myDiv2" style="width:480px; height: 400px">
           <!-- Pie Chart is drawn here -->
         </div>
@@ -106,10 +106,10 @@
 // This is the Bar Chart
 var data = [
   {
-    x: ['Prior Experience', 'No Experience', 'Some Experience'],
-    y: [20, 14, 23],
+    x: ['Really Long', 'Mid-length', 'Short', 'none'],
+    y: [6, 5, 2, 10],
     marker: {
-      color: ['rgb(82,185,191)', 'rgb(234,100,156)', 'rgb(112,99,86)']
+      color: ['rgb(82,185,191)', 'rgb(234,100,156)', 'rgb(112,99,86)', 'rgb(234,100,156)']
     }, 
     type: 'bar'
   }
@@ -117,8 +117,8 @@ var data = [
 Plotly.newPlot('myDiv', data);
 // This is the Pie Graph
       var data = [{
-        values: [29, 20, 55],
-        labels: ['Both','Star Wars','Star Trek'],
+        values: [420, 9, 666],
+        labels: ['he is the fastest thing alive','sez','06'],
         marker: {
             colors: ['rgb(82,185,191)', 'rgb(234,100,156)', 'rgb(112,99,86)']
         }, 
